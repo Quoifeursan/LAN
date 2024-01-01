@@ -1,0 +1,58 @@
+body {
+    color: black;
+
+
+}
+.banner {
+    border: solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(#2c2c2c, #000000);
+    padding-left: 10px;
+}
+.banner a {
+    
+    color: white;
+
+
+    text-decoration: none;
+}
+h3{
+    border-radius: 10px;
+    background-color: #005cac;
+    padding: 1%;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    
+}
+
+td {
+    border: 1px solid black;
+    padding: 3px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+thead,tfoot {
+    border: 1px solid black;
+  background-color: #005cac;
+  color: #fff;
+  padding: 10px;
+}
+thread,td{
+ color: #000000;
+}
+
+
+.container {
+            display: flex; /* Use flexbox */
+        }
+
+        .left-div {
+            flex: 1; /* Equal flex distribution */
+            margin: 10px;
+        }
+
