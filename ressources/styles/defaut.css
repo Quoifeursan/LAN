@@ -1,15 +1,49 @@
+body{
+   background-image: url("../img/bg.jpg");
+    background-size: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    
 
 
 }
+
+.content{
+    background-color: #fff;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top:2% ;
+    margin-bottom:2% ;
+    width: 80%;
+    padding: 1%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 .banner {
     border: solid rgb(0, 0, 0);
     border-radius: 10px;
     color: white;
-    background: linear-gradient(#2c2c2c, #000000);
+    background: #000000;
     padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+
+    align-items: left;
+  justify-content: left;
+    
+
 }
 .banner a {
     
@@ -58,5 +92,26 @@ thread,td{
 
 .alert{
     background-color: red;
+}
+
+.player{
+    background-color: #00ff99;
+
+    width: fit-content;
+
+
+    
+    
+}
+
+.player h3{
+    background-color: #00c344;
+    height: max-content;
+    border-radius: 0%;
+    border: solid 2px, #000000;
+    padding: 1%;
+    
+
+    
 }
 
