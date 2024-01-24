@@ -79,6 +79,12 @@ thead,tfoot {
   color: #fff;
   padding: 10px;
 }
+tbody,tfoot {
+    border: 1px solid black;
+  background-color: #6e7afe;
+  color: #fff;
+  padding: 10px;
+}
 thread,td{
  color: #000000;
 }
